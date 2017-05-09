@@ -1,0 +1,9 @@
+./hw7/task1/Cargo.lock
+./hw7/task1/Cargo.toml
+./hw7/task1/src/lib.rs
+./hw7/task1/tests/task1.rs
+
+./hw7/simu1/ANSWERS.md
+
+./hw7/simu2/ANSWERS.md
+
