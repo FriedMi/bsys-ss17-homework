@@ -18,7 +18,9 @@ impl Shell {
         unimplemented!();
     }
 
-    /// At beginning of every loop print prompt and wait for input
+    /// Print prompt and wait for input.
+    /// Returns None when stdin is closed (Ctrl+D).
+    /// Returns input string witout trailing newline.
     fn prompt(&self) -> Option<String> {
         let mut buf = String::new();
 
